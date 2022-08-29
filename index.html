@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+   integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+   crossorigin=""/>
+   <script src="script.js" defer></script>
+   <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+   integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+   crossorigin=""></script>
+    <style>
+        body {
+            background-color: azure;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #map { height: 600px; }
+        #buttons {
+            margin: 0;
+            padding: ;
+            color: #777;
+            display: inline-block;
+            padding: 1.5%;
+            text-align: center;
+        }
+        h1 {
+            flex-wrap:wrap
+        }
+    </style>
+</head>
+<body>
+    <h1> Tailored Travel</h1>
+<div id="buttons">
+    <input type="radio" id="coffee">
+    <label for="coffee">coffee</label>
+    <input type="radio" id="restaurant">
+    <label for="restaurant">restaurant</label>
+    <input type="radio" id="hotel">
+    <label for="hotel">hotel</label>
+    <input type="radio" id="market">
+    <label for="market">market</label>
+</div>
+    <div id="map"></div>
+</body>
+</html>
